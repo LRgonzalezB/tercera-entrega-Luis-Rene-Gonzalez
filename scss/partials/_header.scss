@@ -1,0 +1,22 @@
+$font-family_1: 'Courier New', Courier, monospace;
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2rem;
+}
+.header__title {
+	color: black;
+	font-size: 3rem;
+	font-family: $font-family_1;
+}
+.header__logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__logo__img {
+	width: 10rem;
+	height: 10rem;
+}

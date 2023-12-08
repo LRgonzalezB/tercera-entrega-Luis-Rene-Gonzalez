@@ -1,0 +1,93 @@
+/*responsive de index*/
+@media (max-width: 768px){
+
+    .precentation {
+        width: auto;
+        height: auto;
+
+    }
+
+    .title__maki{
+        font-size: 2rem;
+    }
+
+
+    .title__enjoy{
+        font-size: 1.5rem;
+    }
+
+    .paragraph{
+        font-size: 1rem;
+    }
+
+
+    .title__gif{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .proposal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .proposal__title{
+        font-size: 2rem;
+    }
+    
+    .proposal__paragraph{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .precentation{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items:baseline;   
+    }
+    
+    .proposal{
+        margin: 1rem;
+    }
+
+    .proposal__title{
+        font-size: 1.5rem;
+    }
+    
+    .proposal__paragraph{
+        font-size: 1rem;
+    }
+}
+
+/*responsive experiencia*/
+
+
+@media (max-width: 768px) {
+	h3 {
+		font-size: 2rem;
+	}
+	p {
+		font-size: 1.5rem;
+	}
+	.precentation__experience {
+		width: 40rem;
+		height: 45rem;
+	}
+	.experience__container__gif {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.container__restaurant {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	.containar__restaurant__lounge {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+}

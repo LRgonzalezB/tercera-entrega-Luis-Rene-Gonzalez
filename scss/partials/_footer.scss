@@ -1,0 +1,30 @@
+$blanco: aliceblue;
+$font-family_1: Verdana, Geneva, Tahoma, sans-serif;
+$background-color_1: #D65A31;
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: $background-color_1;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px;
+	text-align: center;
+	.copy {
+		color: $blanco;
+		font-family: $font-family_1;
+		font-size: 2rem;
+	}
+	.redes {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		font-size: 1.5rem;
+		a {
+			padding: 5px;
+			color: $blanco;
+			font-family: $font-family_1;
+			text-decoration: none;
+		}
+	}
+}

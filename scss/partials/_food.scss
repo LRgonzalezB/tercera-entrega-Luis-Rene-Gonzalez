@@ -1,0 +1,49 @@
+.title__gif {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem;
+}
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem;
+}
+
+.food__img {
+    width: 23rem;
+}
+
+.lounge__img {
+    width: 23rem;
+}
+
+
+.title__enjoy {
+    text-align: center;
+    font-size: 3rem;
+    color: $color-letras-titulos;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.proposal {
+    display: flex;
+    align-items: center;
+    margin: 2rem
+}
+
+.proposal__title {
+    font-size: 3rem;
+    color: $color-letras-titulos;
+}
+
+.proposal__paragraph {
+    font-size: 2rem;
+}

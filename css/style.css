@@ -1,0 +1,264 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem; }
+
+.header__title {
+  color: black;
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace; }
+
+.header__logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.header__logo__img {
+  width: 10rem;
+  height: 10rem; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D65A31;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  text-align: center; }
+  footer .copy {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem; }
+  footer .redes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 1.5rem; }
+    footer .redes a {
+      padding: 5px;
+      color: aliceblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none; }
+
+.precentation {
+  background-image: url(/imagenes/maki-sushi.jpg);
+  height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column; }
+
+.title__maki {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #D65A31;
+  margin-bottom: 35rem; }
+
+button {
+  width: 10rem;
+  height: 4.5rem;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #393E46;
+  color: #D65A31;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2rem; }
+  button:hover {
+    background-color: #222831; }
+  button:active {
+    background-color: #F6F1EE; }
+
+.title__gif {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem; }
+
+.food {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 3rem; }
+
+.food__img {
+  width: 23rem; }
+
+.lounge__img {
+  width: 23rem; }
+
+.title__enjoy {
+  text-align: center;
+  font-size: 3rem;
+  color: #D65A31; }
+
+.paragraph {
+  text-align: center;
+  font-size: 2rem; }
+
+.proposal {
+  display: flex;
+  align-items: center;
+  margin: 2rem; }
+
+.proposal__title {
+  font-size: 3rem;
+  color: #D65A31; }
+
+.proposal__paragraph {
+  font-size: 2rem; }
+
+/*responsive de index*/
+@media (max-width: 768px) {
+  .precentation {
+    width: auto;
+    height: auto; }
+
+  .title__maki {
+    font-size: 2rem; }
+
+  .title__enjoy {
+    font-size: 1.5rem; }
+
+  .paragraph {
+    font-size: 1rem; }
+
+  .title__gif {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .proposal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+
+  .proposal__title {
+    font-size: 2rem; }
+
+  .proposal__paragraph {
+    font-size: 1rem; } }
+@media (max-width: 320px) {
+  .precentation {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: baseline; }
+
+  .proposal {
+    margin: 1rem; }
+
+  .proposal__title {
+    font-size: 1.5rem; }
+
+  .proposal__paragraph {
+    font-size: 1rem; } }
+/*responsive experiencia*/
+@media (max-width: 768px) {
+  h3 {
+    font-size: 2rem; }
+
+  p {
+    font-size: 1.5rem; }
+
+  .precentation__experience {
+    width: 40rem;
+    height: 45rem; }
+
+  .experience__container__gif {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .container__restaurant {
+    display: flex;
+    flex-wrap: wrap-reverse; }
+
+  .containar__restaurant__lounge {
+    display: flex;
+    flex-wrap: wrap-reverse; } }
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 h3 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700; }
+
+p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400; }
+
+h3 {
+  color: #D65A31; }
+
+.precentation__experience {
+  background-image: url("/imagenes/placer-inesperado-experiencia.jpg");
+  height: 50rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.experience__info {
+  margin: 3rem; }
+
+.subtitle__precentation__experience {
+  font-size: 3.5rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 1.5rem; }
+
+.experience__paragraph {
+  font-size: 2rem;
+  color: #F6F1EE;
+  text-align: right;
+  margin-right: 1.5rem; }
+
+.experience__container__gif {
+  display: flex;
+  align-items: center;
+  margin: 3rem; }
+
+.container__restaurant {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; }
+
+.containar__restaurant__lounge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; }
+
+.experience__info__title {
+  font-size: 3.5rem; }
+
+.experience__info__paragraph {
+  font-size: 2rem; }
+
+.experience__info__img {
+  width: 35rem; }
+
+.experience__restaurant__img {
+  width: 35rem; }
+
+.experience__restaurant__title {
+  font-size: 3.5rem; }
+
+.experience__restaurant__paragraph {
+  font-size: 2rem; }
+
+.experience__restaurant__pdf {
+  text-decoration: none;
+  font-size: 4rem;
+  color: #D65A31; }
+
+/*# sourceMappingURL=style.css.map */

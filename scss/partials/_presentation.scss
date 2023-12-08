@@ -1,0 +1,39 @@
+
+.precentation {
+	background-image: url(/imagenes/maki-sushi.jpg);
+	height: 50rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.title__maki {
+    text-align: center;
+    font-size: 3.5rem;
+    color: $color-letras-titulos;
+    margin-bottom: 35rem;
+}
+
+button {
+	width: 10rem;
+	height: 4.5rem;
+	font-size: 1.2rem;
+	padding: 10px 20px;
+	background-color: $boton-gris;
+	color: $color-letras-titulos;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 2rem;
+	&:hover {
+		background-color: $boton-color-cambio;
+	}
+	&:active {
+		background-color: $boton-cambio-blanco;
+	}
+}

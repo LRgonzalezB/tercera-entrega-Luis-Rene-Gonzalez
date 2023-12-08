@@ -1,0 +1,64 @@
+
+.precentation__experience {
+	background-image: url("/imagenes/placer-inesperado-experiencia.jpg");
+	height: 50rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.experience__info {
+	margin: 3rem;
+}
+.subtitle__precentation__experience {
+	font-size: 3.5rem;
+	text-align: left;
+	padding-top: 2rem;
+	padding-left: 1.5rem;
+}
+.experience__paragraph {
+	font-size: 2rem;
+	color: #F6F1EE;
+	text-align: right;
+	margin-right: 1.5rem;
+}
+.experience__container__gif {
+	display: flex;
+	align-items: center;
+	margin: 3rem;
+}
+.container__restaurant {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+.containar__restaurant__lounge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+}
+.experience__info__title {
+	font-size: 3.5rem;
+}
+.experience__info__paragraph {
+	font-size: 2rem;
+}
+.experience__info__img {
+	width: 35rem;
+}
+.experience__restaurant__img {
+	width: 35rem;
+}
+.experience__restaurant__title {
+	font-size: 3.5rem;
+}
+.experience__restaurant__paragraph {
+	font-size: 2rem;
+}
+.experience__restaurant__pdf {
+	text-decoration: none;
+	font-size: 4rem;
+	color: $color-letras-titulos;
+}
