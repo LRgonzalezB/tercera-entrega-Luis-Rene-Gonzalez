@@ -67,27 +67,82 @@
 /*responsive experiencia*/
 
 
-@media (max-width: 768px) {
-	h3 {
-		font-size: 2rem;
-	}
-	p {
-		font-size: 1.5rem;
-	}
-	.precentation__experience {
-		width: 40rem;
-		height: 45rem;
-	}
-	.experience__container__gif {
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.container__restaurant {
-		display: flex;
-		flex-wrap: wrap-reverse;
-	}
-	.containar__restaurant__lounge {
-		display: flex;
-		flex-wrap: wrap-reverse;
-	}
+@media (max-width:768px) {
+
+    .precentation__experience{
+        width: 29rem;
+        height: auto;
+    }
+
+
+    .experience__container__gif{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container__restaurant{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    
+    .containar__restaurant__lounge{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .experience__info__img{
+        width: 20rem;   
+    }
+
 }
+
+@media (max-width:320px) {
+
+    .subtitle__precentation__experience{
+        font-size: 1.5rem;
+    }
+
+    .experience__paragraph{
+        font-size: 1.5rem;
+    }
+
+    .experience__info__title{
+        font-size: 1.5rem;
+    }
+
+    .experience__info__paragraph{
+        font-size: 1.5rem;
+    }
+
+    .experience__info__img{
+        font-size: 15rem;
+        
+    }
+
+    .experience__restaurant__title{
+        font-size: 1.5rem;
+    }
+
+    .experience__restaurant__paragraph{
+        font-size: 1.5rem;
+    }
+
+    .experience__restaurant__pdf{
+        font-size: 1rem;
+    }
+
+    .precentation__experience{
+        width: 24rem ;
+        height: auto;
+    }
+
+    .experience__container__gif{
+        display: flex;
+        justify-content: center;    }
+
+    .experience__restaurant__img{
+        width: 20rem;
+    }
+}
+
